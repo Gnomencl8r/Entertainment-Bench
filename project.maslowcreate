@@ -10,26 +10,31 @@
             "topLevel": true,
             "allAtoms": [
                 {
-                    "atomType": "Svg",
-                    "name": "Svg",
-                    "x": 0.084375,
-                    "y": 0.28040540540540543,
-                    "uniqueID": 801805,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Scale",
-                    "name": "Scale",
-                    "x": 0.084375,
-                    "y": 0.28040540540540543,
-                    "uniqueID": 973442,
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.27375,
+                    "y": 0.2668918918918919,
+                    "uniqueID": 724205,
                     "ioValues": [
                         {
                             "name": "geometry",
                             "ioValue": ""
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.17750000000000002,
+                    "y": 0.5472972972972974,
+                    "uniqueID": 963721,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
                         },
                         {
-                            "name": "multiple",
+                            "name": "y length",
                             "ioValue": 10
                         }
                     ]
@@ -42,7 +47,15 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "height",
+                    "ap2Primary": false,
+                    "ap1ID": 963721,
+                    "ap2ID": 724205
+                }
+            ],
             "fileTypeVersion": 1
         }
     ],
