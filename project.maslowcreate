@@ -10,6 +10,31 @@
             "topLevel": true,
             "allAtoms": [
                 {
+                    "atomType": "Svg",
+                    "name": "Svg",
+                    "x": 0.084375,
+                    "y": 0.28040540540540543,
+                    "uniqueID": 801805,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Scale",
+                    "name": "Scale",
+                    "x": 0.084375,
+                    "y": 0.28040540540540543,
+                    "uniqueID": 973442,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "multiple",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9874999999999999,
@@ -21,5 +46,5 @@
             "fileTypeVersion": 1
         }
     ],
-    "circleSegmentSize": 2
+    "circleSegmentSize": "0.1"
 }
